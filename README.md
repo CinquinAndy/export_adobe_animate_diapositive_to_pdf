@@ -22,3 +22,6 @@ CANVAS_SELECTOR=#canvas
 SCREENSHOT_PATH="./output/images/"
 ```
 - run `node screenshot-capture.js`
+- filter the images you want to keep
+- move the images you want to keep to the "to_export_to_pdf" folder
+- run `node pdf-creator.js`
