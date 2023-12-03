@@ -1,0 +1,18 @@
+{
+  "name": "export_adobe_animate_diapositive_to_pdf",
+  "version": "1.0.0",
+  "description": "a package to export an diapositive done with adobe animate to pdf ( medecine stuff ) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adobe",
+    "animate",
+    "sript",
+    "to",
+    "pdf"
+  ],
+  "author": "CinquinAndy",
+  "license": "ISC"
+}
