@@ -9,11 +9,16 @@ This script is used to export to pdf all the diapositives contained in an Adobe 
 
 ## Usage
 - Clone this repository
+- go to your diapositives folder
+- run python -m http.server 8000
+- go to the root of this repository
+- run `npm install`
 - create a .env file with the following content:
 ```
-INPUT_FILE_PATH=PATH_TO_YOUR_HTML_FILE
-OUTPUT_FILE_PATH=PATH_TO_YOUR_PDF_FILE
+INPUT_FILE_PATH="PATH_TO_YOUR_HTML_FILE"
+OUTPUT_FILE_PATH="PATH_TO_YOUR_PDF_FILE"
+SLIDESHOW_URL="http://localhost:8000/genetique_exam2324.html"
+CANVAS_SELECTOR=#canvas
+SCREENSHOT_PATH="./output/images/"
 ```
-- run `npm install`
-- run `npm start`
-```
+- run `node screenshot-capture.js`
