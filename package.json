@@ -2,7 +2,7 @@
   "name": "export_adobe_animate_diapositive_to_pdf",
   "version": "1.0.0",
   "description": "a package to export an diapositive done with adobe animate to pdf ( medecine stuff ) ",
-  "main": "index.js",
+  "main": "screenshot-captures.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,7 @@
   "author": "CinquinAndy",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^21.5.2"
   }
