@@ -13,7 +13,7 @@ function delay(time) {
     const timeout = 5000;
     const totalSlides = 375;
     page.setDefaultTimeout(timeout);
-    await page.setViewport({ width: 1024, height: 766 });
+    await page.setViewport({ width: 1050, height: 780 });
     await page.goto(process.env.SLIDESHOW_URL); // Use URL from .env file
 
     await delay(4000);
