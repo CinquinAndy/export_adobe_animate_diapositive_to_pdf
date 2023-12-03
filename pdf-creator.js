@@ -1,3 +1,4 @@
+require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const { PDFDocument } = require('pdf-lib');
@@ -20,6 +21,6 @@ async function createPDF(imagesFolder, outputPath) {
     fs.writeFileSync(outputPath, pdfBytes);
 }
 
-createPDF(process.env.SCREENSHOT_PATH, path.join(process.env.OUTPUT_FILE_PATH, 'diapositives.pdf'))
+createPDF(process.env.SCREENSHOT_PATH, path.join(process.env.OUTPUT_FILE_PATH, './pdf/diapositives.pdf'))
     .then(() => console.log('PDF created successfully.'))
     .catch(err => console.error('Error creating PDF:', err));

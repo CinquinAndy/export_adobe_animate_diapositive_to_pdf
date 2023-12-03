@@ -11,7 +11,7 @@ function delay(time) {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
     const timeout = 5000;
-    const totalSlides = 375;
+    const totalSlides = 235;
     page.setDefaultTimeout(timeout);
     await page.setViewport({ width: 1050, height: 780 });
     await page.goto(process.env.SLIDESHOW_URL); // Use URL from .env file
