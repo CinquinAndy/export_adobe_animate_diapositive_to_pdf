@@ -16,6 +16,7 @@
   "author": "CinquinAndy",
   "license": "ISC",
   "dependencies": {
+    "pdf-lib": "^1.17.1",
     "puppeteer": "^21.5.2"
   }
 }
